@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="740.0" stylesheets="@../../Css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurant.directeurController.fournisseurs.SupprimerFournisseur">
+   <children>
+      <Text fill="#1e325c" layoutX="254.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" wrappingWidth="44.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#1e325c" layoutX="255.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de passe" wrappingWidth="129.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nom" layoutX="255.0" layoutY="348.0" prefHeight="37.0" prefWidth="400.0" />
+      <TextField fx:id="motDePasse" layoutX="255.0" layoutY="428.0" prefHeight="37.0" prefWidth="400.0" />
+      <Button fx:id="supprimerFounisseur" layoutX="572.0" layoutY="518.0" mnemonicParsing="false" onAction="#fSupprimerFounisseur" prefHeight="37.0" prefWidth="115.0" styleClass="buttonB" text="Supprimer" />
+      <Text fill="#1e325c" layoutX="255.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id " wrappingWidth="44.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="id" layoutX="253.0" layoutY="265.0" prefHeight="37.0" prefWidth="400.0" />
+      <Label alignment="CENTER" layoutX="249.0" layoutY="170.0" prefHeight="37.0" prefWidth="491.0" styleClass="title1" text="Supprimer Founisseur" />
+   </children>
+</AnchorPane>

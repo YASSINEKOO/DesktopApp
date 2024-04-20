@@ -1,0 +1,132 @@
+
+.homebtn{
+    -fx-background-color:transparent ;
+       -fx-text-fill:#1e325c;
+       -fx-font-size: 16px;
+       -fx-font-weight: bold;
+       -fx-cursor:hand;
+   }
+   .homebtn:hover{
+     -fx-text-fill:#93032e;
+   }
+.buttonA {
+    -fx-background-color:  #fca311 ;
+    -fx-text-fill:#1e325c;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-cursor:hand;
+
+}
+.box_left{
+  -fx-background-color:#2d6a4f;
+}
+ .title1{
+     -fx-background-color:#1e325c;
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    }
+.buttonA:hover {
+    -fx-background-color:transparent;
+    -fx-text-fill:#fca311;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: #fca311;
+}
+.buttonB {
+    -fx-background-color:  #1e325c;
+    -fx-text-fill:white;
+    -fx-font-size: 15px;
+     -fx-font-weight: bold;
+    -fx-cursor:hand;
+}
+
+.buttonB:hover {
+    -fx-background-color:transparent;
+    -fx-text-fill: #1e325c;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: #1e325c;
+}
+/* title creer compte style*/
+.title{
+    -fx-background-color:#fca311;
+   -fx-text-fill:white;
+   -fx-font-weight: bold;
+   -fx-font-size: 15px;
+   }
+
+   /* title login style */
+   .titleB {
+       -fx-background-color:  #778da9;
+       -fx-text-fill:white;
+       -fx-font-weight: bold;
+          -fx-font-size: 15px;
+       -fx-cursor:hand;
+   }
+   /* style interface directeur */
+   .anchro1{
+      -fx-background-color:#0a111f;
+   }
+   .anchro2{
+       -fx-background-color: #1e325c;
+        }
+
+      .buttonMenu {
+          -fx-background-color: transparent;
+          -fx-text-fill: white;
+          -fx-font-size: 16px;
+          -fx-alignment: baseline-left;
+          -fx-cursor: hand;
+      }
+.buttonMenu:hover{
+           -fx-border-width: 0 0 2 0;
+          -fx-border-color: transparent;
+          -fx-border-style: solid;
+          -fx-text-fill: #fca311;
+          }
+.buttonMenu:focused {
+            -fx-text-fill: #fca311;
+          -fx-border-width: 0 0 2 0;
+          -fx-border-color: #fca311;
+          -fx-border-style: solid;
+      }
+
+  /* interface directeur*/
+   .body{
+      -fx-background-color: #e5e5e5;
+   }
+   .menu-bar {
+       -fx-background-color:  #778da9; /* Couleur de fond */
+        -fx-cursor:hand;
+   }
+
+   .menu-bar .menu {
+       -fx-background-color: transparent; /* Couleur de fond des menus */
+       -fx-text-fill: #333333; /* Couleur du texte des menus */
+       -fx-font-size: 16px;
+       -fx-padding:9px;
+       -fx-font-weight: bold; /* Gras pour le texte des menus */
+   }
+
+   .menu-bar .menu .menu-item {
+       -fx-text-fill: #333333; /* Couleur du texte des éléments de menu */
+   }
+
+   .menu-bar .menu .menu-item .label {
+       -fx-padding: 4px 8px; /* Espacement interne des éléments de menu */
+   }
+
+   .menu-bar .menu .menu-item:focused {
+       -fx-background-color:  #778da9; /* Couleur de fond lorsqu'un élément de menu est sélectionné */
+   }
+
+   .menu-bar .menu .menu-item .arrow {
+       -fx-background-color: transparent; /* Suppression de la flèche des éléments de menu avec sous-menus */
+   }
+
+
+
+  /* interface chefCuisinier*/
+
+  /*interafce caissier*/

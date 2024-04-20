@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="home" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1600.0" stylesheets="@Css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurant.Controlleur">
+   <children>
+      <ImageView fitHeight="132.0" fitWidth="173.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/logo.png" />
+         </image></ImageView>
+      <Button fx:id="btnlogin1" layoutX="430.0" layoutY="306.0" mnemonicParsing="false" onAction="#openLogin1" prefHeight="53.0" prefWidth="302.0" styleClass="buttonA" text="Directeur" />
+      <Button fx:id="btnCreerCompte" layoutX="430.0" layoutY="609.0" mnemonicParsing="false" onAction="#openCreerCompte" prefHeight="53.0" prefWidth="302.0" styleClass="buttonB" stylesheets="@Css/style.css" text="Creer Compte" />
+      <Button fx:id="btnlogin3" layoutX="430.0" layoutY="444.0" mnemonicParsing="false" onAction="#openLogin3" prefHeight="53.0" prefWidth="302.0" styleClass="buttonA" stylesheets="@Css/style.css" text="Caissier" />
+      <Button fx:id="btnlogin2" layoutX="430.0" layoutY="376.0" mnemonicParsing="false" onAction="#openLogin2" prefHeight="53.0" prefWidth="302.0" styleClass="buttonA" stylesheets="@Css/style.css" text="Chef de cuisine" />
+      <Label layoutX="20.0" layoutY="133.0" text="Restaurant" textFill="#cd830d">
+         <font>
+            <Font name="Harrington" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="850.0" fitWidth="562.0" layoutX="1104.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@image/photoPrincipale.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

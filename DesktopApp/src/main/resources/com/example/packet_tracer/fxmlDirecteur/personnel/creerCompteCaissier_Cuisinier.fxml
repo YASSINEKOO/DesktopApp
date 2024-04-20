@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="764.0" prefWidth="992.0" stylesheets="@../../Css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurant.creerCompteCaissier_Cuisinier">
+   <children>
+      <Text fill="#1e325c" layoutX="237.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" wrappingWidth="44.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#1e325c" layoutX="238.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom" wrappingWidth="129.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#1e325c" layoutX="237.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Role" wrappingWidth="44.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#1e325c" layoutX="238.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de passe" wrappingWidth="129.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#1e325c" layoutX="238.0" layoutY="605.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comfirmer le mot de passe" wrappingWidth="197.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nom" layoutX="238.0" layoutY="273.0" prefHeight="37.0" prefWidth="400.0" />
+      <TextField fx:id="prenom" layoutX="238.0" layoutY="340.0" prefHeight="37.0" prefWidth="400.0" />
+      <Text fill="#1e325c" layoutX="237.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom d'utilisateur" wrappingWidth="166.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nomUtilisateur" layoutX="238.0" layoutY="480.0" prefHeight="37.0" prefWidth="400.0" />
+      <Button fx:id="addCompte" layoutX="635.0" layoutY="711.0" mnemonicParsing="false" onAction="#creerCompte" styleClass="buttonB" text="Creer Compte" />
+      <Text fill="#1e325c" layoutX="237.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cin" wrappingWidth="44.13671875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="cin" layoutX="235.0" layoutY="204.0" prefHeight="37.0" prefWidth="400.0" />
+      <Label alignment="CENTER" layoutX="230.0" layoutY="125.0" prefHeight="37.0" prefWidth="509.0" styleClass="title1" text="Création du comptes" AnchorPane.topAnchor="125.0" />
+      <PasswordField fx:id="motDePasse" layoutX="238.0" layoutY="546.0" prefHeight="37.0" prefWidth="400.0" />
+      <PasswordField fx:id="confirmMotDePasse" layoutX="238.0" layoutY="617.0" prefHeight="37.0" prefWidth="400.0" />
+      <ChoiceBox fx:id="selectRole" layoutX="238.0" layoutY="405.0" prefHeight="37.0" prefWidth="400.0" />
+      <Label fx:id="messageSucce" layoutX="237.0" layoutY="85.0" prefHeight="31.0" prefWidth="502.0" textFill="#00ff48">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="messageErreur" layoutX="238.0" layoutY="663.0" prefHeight="37.0" prefWidth="599.0" textFill="RED">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

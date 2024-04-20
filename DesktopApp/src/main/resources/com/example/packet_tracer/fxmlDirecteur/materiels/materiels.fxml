@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="840.0" prefWidth="1282.0" stylesheets="@../../Css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurant.directeurController.materiels.Materiels">
+   <children>
+      <MenuBar layoutX="10.0" layoutY="25.0" prefHeight="43.0" prefWidth="1283.0" styleClass="menu" AnchorPane.bottomAnchor="794.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="13.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Liste de matériels">
+              <items>
+                <MenuItem fx:id="listeMateriels" mnemonicParsing="false" onAction="#fListeMateriels" text="Afficher" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Gestion de Materiels">
+               <items>
+                  <MenuItem fx:id="supprimerMateriels" mnemonicParsing="false" onAction="#fSupprimerMateriels" text="Supprimer Matériels" />
+                  <MenuItem fx:id="ajouterMateriels" mnemonicParsing="false" onAction="#fAjouterMateriels" text="Ajouter Matériels" />
+                  <MenuItem fx:id="modifierMateriels" mnemonicParsing="false" onAction="#fModifierMateriels" text="Modifier Matériels" />
+               </items></Menu>
+            <Menu mnemonicParsing="false" text="About">
+              <items>
+                <MenuItem fx:id="infos" mnemonicParsing="false" onAction="#showInfos" text="infos" />
+              </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <AnchorPane fx:id="showBody" layoutX="10.0" layoutY="71.0" prefHeight="779.0" prefWidth="1282.0" styleClass="body" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0" />
+   </children>
+</AnchorPane>

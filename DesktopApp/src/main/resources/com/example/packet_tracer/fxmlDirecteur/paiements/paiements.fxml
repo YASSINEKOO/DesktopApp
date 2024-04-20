@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="840.0" prefWidth="1282.0" stylesheets="@../../Css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurant.directeurController.paiements.Paiements">
+   <children>
+      <MenuBar layoutX="10.0" layoutY="25.0" prefHeight="43.0" prefWidth="1283.0" styleClass="menu" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="13.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Gestion financière">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Paiement">
+               <items>
+                  <MenuItem fx:id="paiementFounisseur" mnemonicParsing="false" onAction="#fPaiementFounisseur" text="Paiement fournisseur" />
+                  <MenuItem fx:id="paiementEmployee" mnemonicParsing="false" onAction="#fPaiementEmployee" text="Paiement employees" />
+               </items></Menu>
+            <Menu mnemonicParsing="false" text="Facteurs">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Transport" />
+                  <MenuItem mnemonicParsing="false" text="Eau et Electricite" />
+                  <MenuItem mnemonicParsing="false" text="Internet" />
+                  <MenuItem mnemonicParsing="false" text="Impots" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem fx:id="infos" mnemonicParsing="false" onAction="#showInfos" text="Infos" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <AnchorPane fx:id="showBody" layoutX="10.0" layoutY="71.0" prefHeight="779.0" prefWidth="1283.0" styleClass="body" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="61.0" />
+   </children>
+</AnchorPane>
